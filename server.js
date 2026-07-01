@@ -67,7 +67,7 @@ app.post(['/chat/completions', '/v1/chat/completions'], async (req, res) => {
       headers: {
         'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://your-service-name.onrender.com',
+        'HTTP-Referer': 'https://openai-nim-proxy-1-421w.onrender.com',
         'X-Title': 'OpenAI to OpenRouter Proxy'
       },
       responseType: stream ? 'stream' : 'json'
